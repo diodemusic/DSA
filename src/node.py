@@ -42,3 +42,23 @@ class Node:
         """
 
         return self.prev_node
+
+    def set_next_node(self, node: Self) -> None:
+        """
+        Set the next node pointer to a new node.
+
+        Args:
+            node (Self): The new node to point to.
+        """
+
+        self.next_node = node
+
+    def set_prev_node(self, node: Self) -> None:
+        """
+        Set the prev node pointer to a new node.
+
+        Args:
+            node (Self): The new node to point to.
+        """
+
+        self.prev_node = node
