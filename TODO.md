@@ -2,9 +2,9 @@
 
 ## TO-DO
 
-- [ ] Write 100% coverage tests
 - [ ] Add doubly linked list
 - [ ] Add queue
+- [ ] Add stack
 
 ## IN-PROGRESS
 
