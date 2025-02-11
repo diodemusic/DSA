@@ -9,12 +9,17 @@ class LinkedList:
     def __init__(self) -> None:
         self.head: Node | None = None
 
-    def add_to_head(self, node: Node) -> None:
+    def add_to_head(self, new_head: Node) -> None:
         """
         Add a node to the head.
 
         Args:
-            node (Node): Node to add to head.
+            new_head (Node): Node to add to head.
         """
 
-        self.head = node
+        if self.head is None:
+            self.head = new_head
+            return
+
+        new_head.set_next_node(self.head)
+        self.head = new_head

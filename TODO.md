@@ -8,6 +8,7 @@
 
 ## IN-PROGRESS
 
+- [ ] Add head node logic for linked list
 - [ ] Add linked list
 
 ## DONE

@@ -31,6 +31,9 @@ class Node:
             Self | None: Node object.
         """
 
+        if self.next_node is None:
+            return None
+
         return self.next_node
 
     def get_prev_node(self) -> Self | None:
@@ -40,6 +43,9 @@ class Node:
         Returns:
             Self | None: Node object.
         """
+
+        if self.prev_node is None:
+            return None
 
         return self.prev_node
 
